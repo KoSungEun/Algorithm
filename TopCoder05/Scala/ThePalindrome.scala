@@ -6,7 +6,7 @@ class ThePalindrome {
     while (true) {
       var fleg = true
       breakable {
-        for (j <- 0 to s.length() - 1) {
+        for (j <- 0 until s.length()) {
           if ((i - j - 1) < s.length() && s(j) != s(i - j - 1)) {
             fleg = false
             break

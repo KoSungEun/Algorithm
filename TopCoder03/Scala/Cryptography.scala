@@ -1,4 +1,3 @@
-import java.util.Arrays
 import scala.util.Sorting
 
 class Cryptography {
